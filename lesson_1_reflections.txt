@@ -1,0 +1,52 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    If the previous version worked well, it means that the bug is the
+    modifications. 
+    Viewing the differences between two versions displays directly the
+    modifications and narrows significantly the search scope.
+    We can find the bug much more quickly and easily. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    When you work on a big and complicated project, it is inevitable to modify
+    and update your code.
+    As a result, you could have many versions of file for each project.
+   Having easy access to them means that you can retrieve very quickly whatever    version you need to either debug the current version or come back to a 
+   previous version which has been proven better than the new version.  
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: It's very flexible. You can decide when to create a commit. 
+	  You can make sure that each commit is backed up by a logial change and          each version saved is executable. 
+    Cons: You may forget to commit when you should do it. 
+       
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+   Git is more programming oriented, where several files tend to consist one 
+   logical group. The modification in one file can have an important impact on 
+   other files or on the whole project.
+   One the other hand, Google Docs is primarily more targeted for documents for 
+   human readings, in which case, each single file consists a meaningful piece.
+
+How can you use the commands git log and git diff to view the history of files?
+
+   git log can list the summaries of all the changes made to repository
+   git diff can be used to see what has actually changed between two given commits.
+    
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can try changing any critical features, since you can always revert back to the point when those were working correctly.
+    If you find something is not working, you can git log, and try the previous versions with git checkout until you find the one which works, 
+    and make diff of the last one that worked correctly and the commit following it. That result would show where and how the bug was introduced.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
