@@ -6,3 +6,11 @@ A remote repository makes it possible to invole many contributors in a project w
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 By syncing manually, I can pull changes when the job is really completed. I can avoid pulling to many little trival changes to my local computer. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks only exits in GitHub. Forks is cloning someone's repository in Github into your own GitHub account. Then you can work on it in your repository.
+
+Clones is similar to copy. It can copy also the history of a file or directory. Clone can be done off-line between two computers, between two directories in a computer or from internet to your local machine. 
+
+Branch means a group of commits developing independently from the main workflow. It's ideal for adding experiental features without impacting the normal evolution of code.   
