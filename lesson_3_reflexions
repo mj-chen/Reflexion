@@ -13,4 +13,9 @@ Forks only exits in GitHub. Forks is cloning someone's repository in Github into
 
 Clones is similar to copy. It can copy also the history of a file or directory. Clone can be done off-line between two computers, between two directories in a computer or from internet to your local machine. 
 
-Branch means a group of commits developing independently from the main workflow. It's ideal for adding experiental features without impacting the normal evolution of code.   
+Branch means a group of commits developing independently from the main workflow. It's ideal for adding experiental features without impacting the normal evolution of code. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+So when you work off-line on your project, you can alos commit the changes you just have made and  compare the difference between your local work to the last remote commit, merge them and push it to the remote once you are connected to internet. 
+
