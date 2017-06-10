@@ -21,4 +21,8 @@ So when you work off-line on your project, you can alos commit the changes you j
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
-It will be very hard to collaborate without using Git or GitHub. I will perhaps using Dropbox. But it will be very difficult to store and retrieve the history of files since Dropbox delete the previous versions regularly. And it will be difficult to keep track of all the changes made by other contributors as Dropbox can't creat branches. It will also be harder to merge different files. But Dropbox is easier to use as it dosen't require command line knowledge.    
+It will be very hard to collaborate without using Git or GitHub. I will perhaps using Dropbox. But it will be very difficult to store and retrieve the history of files since Dropbox delete the previous versions regularly. And it will be difficult to keep track of all the changes made by other contributors as Dropbox can't creat branches. It will also be harder to merge different files. But Dropbox is easier to use as it dosen't require command line knowledge. 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When I want my colleagues to see my changes before putting them into the master branch where the files are public. Then I can make sure that all the  changes I have made are approved by my colleagues before beening merged into master. In the same time, I can also see the changes made by other in their separate branch and resolve the conflits before merge into the master. 
