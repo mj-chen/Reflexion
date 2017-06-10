@@ -19,3 +19,6 @@ What is the benefit of having a copy of the last known state of the remote store
 
 So when you work off-line on your project, you can alos commit the changes you just have made and  compare the difference between your local work to the last remote commit, merge them and push it to the remote once you are connected to internet. 
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+It will be very hard to collaborate without using Git or GitHub. I will perhaps using Dropbox. But it will be very difficult to store and retrieve the history of files since Dropbox delete the previous versions regularly. And it will be difficult to keep track of all the changes made by other contributors as Dropbox can't creat branches. It will also be harder to merge different files. But Dropbox is easier to use as it dosen't require command line knowledge.    
